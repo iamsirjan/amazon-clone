@@ -1,0 +1,47 @@
+.checkout {
+  display: flex;
+  margin-top: 0px;
+  background-color: white;
+  height: max-content;
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout__title {
+  margin-left: 15px;
+  text-align: center;
+  width: 700px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.checkout__userinfo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.checkout__userinfo > h4 {
+  text-align: center;
+  margin: 5px;
+  font-weight: 400;
+}
+
+.checkout__usermessage {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.checkout__items {
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0.75);
+  margin-left: 15px;
+  background-color: white;
+  width: 700px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
